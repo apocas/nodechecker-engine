@@ -6,9 +6,7 @@
   , "dependencies": {
       "JSONStream"           : "*"
       , "redis"              : "*"
-      , "npm"              : "*"
       , "request"              : "*"
-      , "docker.io"             : "git://github.com/apocas/docker.io.git"
       , "nodechecker-tester"             : "git://github.com/apocas/nodechecker-tester.git"
     }
   , "main"    : "./main.js"
