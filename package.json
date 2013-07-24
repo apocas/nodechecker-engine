@@ -1,0 +1,15 @@
+{
+    "name"        : "nodechecker-engine"
+  , "version"     : "0.0.1"
+  , "homepage"    : "http://nodechecker.com"
+  , "description" : "Nodechecker core/engine"
+  , "dependencies": {
+      "JSONStream"           : "*"
+      , "redis"              : "*"
+      , "npm"              : "*"
+      , "request"              : "*"
+      , "docker.io"             : "git://github.com/apocas/docker.io.git"
+      , "nodechecker-tester"             : "git://github.com/apocas/nodechecker-tester.git"
+    }
+  , "main"    : "./main.js"
+}
