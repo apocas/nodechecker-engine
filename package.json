@@ -5,9 +5,9 @@
   , "description" : "Nodechecker core/engine"
   , "dependencies": {
       "JSONStream"           : "*"
-      , "redis"              : "*"
       , "request"              : "*"
       , "nodechecker-tester"             : "git://github.com/apocas/nodechecker-tester.git"
+      , "dnode"              : "*"
     }
   , "main"    : "./main.js"
 }
