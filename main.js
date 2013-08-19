@@ -14,4 +14,8 @@ if(process.argv.length >= 4) {
       d.end();
     });
   });
+
+  process.on('SIGINT', function () {
+    d.end();
+  });
 }
