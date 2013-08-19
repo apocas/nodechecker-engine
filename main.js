@@ -11,11 +11,14 @@ if(process.argv.length >= 4) {
   var d = dnode.connect(5004, process.argv[3]);
   d.on('remote', function (remote) {
     remote.addMe(process.argv[2], port, function () {
-      d.end();
+      //d.end();
+      console.log('Balancer accepted me!');
     });
   });
 
   process.on('SIGINT', function () {
-    d.end();
+    remote.removeMe(process.argv[2], function () {
+      d.end();
+    });
   });
 }
