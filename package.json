@@ -7,7 +7,9 @@
       "JSONStream"           : "*"
       , "request"              : "*"
       , "nodechecker-tester"             : "git://github.com/apocas/nodechecker-tester.git"
-      , "dnode"              : "*"
+      , "duplex-emitter"              : "*"
+      , "reconnect"              : "*"
+      , "colors"              : "*"
     }
   , "main"    : "./main.js"
 }
